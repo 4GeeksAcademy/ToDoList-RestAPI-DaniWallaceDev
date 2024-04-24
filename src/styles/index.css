@@ -10,3 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: aliceblue;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin:10px 0px;
+}
+input {
+    width: 195.44px;
+}
+li{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 4px;
+}
